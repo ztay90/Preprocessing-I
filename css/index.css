@@ -184,6 +184,7 @@ header nav a {
 }
 #info-section h1 {
   font-size: 4rem;
+  margin-top: 2%;
 }
 @media (max-width: 500px) {
   #info-section h1 {
