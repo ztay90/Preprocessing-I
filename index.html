@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
-
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +14,69 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section id="info-section">
+    <img class="resume-pic" src="images/me.jpg" alt="">
+    <h1>Zachary R Taylor - Web Developer</h1>
+    <p class="tech-text">Technology is everywhere!</p>
+    <div class="line"></div>
+    <p class="tech-info">I'm learning full stack web development at Lambda School, I will be available to do projects in the near future!</p>
+    <a class="button" href="https://ztay90.github.io/portfolio-website/">Portfolio Page</a>
+  </section>
+  <section id="skills-section">
+    <div class="left">
+      <h3>Listen Up...</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nunc viverra urna nostra dictum, dignissim vulputate habitasse tincidunt in odio curae luctus proin vehicula. Purus fermentum ante at augue himenaeos pharetra dictumst eu mi, odio nec mollis commodo turpis massa congue mauris ac laoreet, rutrum metus scelerisque accumsan parturient habitasse fusce erat. Facilisis rhoncus ullamcorper lectus bibendum odio dui, praesent habitasse nam posuere ut scelerisque morbi, et sollicitudin quisque litora habitant.</p>
+    </div>
+    <div class="right">
+      <h4>My Tech Skills:</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>LESS</li>
+        <li>Javascript</li>
+        <li>Mobile Responsive</li>
+      </ul>
+    </div>
+  </section>
+  <section id="work-section">
+    <h4>Work History</h4>
+    <div class="work-info">
+      <div class="work-title">
+        <p class="col1">Yrs</p>
+        <p class="col2">Company</p>
+        <p class="col3">Title</p>
+        <p class="col4">Tech Used</p>
+      </div>
+      <div class="company1">
+        <p class="col1">1</p>
+        <p class="col2">Apple</p>
+        <p class="col3">Software Engineer</p>
+        <p class="col4">Swift</p>
+      </div>
+      <div class="company2">
+        <p class="col1">2</p>
+        <p class="col2">Microsoft</p>
+        <p class="col3">Computer Scientist</p>
+        <p class="col4">.NET</p>
+      </div>
+      <div class="company3">
+        <p class="col1">3</p>
+        <p class="col2">Amazon</p>
+        <p class="col3">Dev Ops</p>
+        <p class="col4">AWS</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright Awesomeness 2020</p>
+  </footer>
 </body>
 </html>
