@@ -223,9 +223,16 @@ header {
 	h4 {
 		font-size: 2rem;
 		margin-bottom: 1%;
+		@media (max-width: 500px) {
+			font-size: 1.4rem;
+			font-weight: 700;
+		}
 	}
 	p {
 		font-size: 1.2rem;
+		@media (max-width: 500px) {
+			font-size: 1rem;
+		}
 	}
 	.work-info {
 		.work-title {
@@ -265,5 +272,9 @@ footer {
 		text-align: center;
 		padding: 2% 0 3% 0;
 		font-size: 1.3rem;
+		@media (max-width: 500px) {
+			font-size: .9rem;
+			// font-weight: 700;
+		}
 	}
 }

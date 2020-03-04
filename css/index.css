@@ -313,8 +313,19 @@ header nav a {
   font-size: 2rem;
   margin-bottom: 1%;
 }
+@media (max-width: 500px) {
+  #work-section h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
 #work-section p {
   font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  #work-section p {
+    font-size: 1rem;
+  }
 }
 #work-section .work-info .work-title {
   display: flex;
@@ -359,4 +370,9 @@ footer p {
   text-align: center;
   padding: 2% 0 3% 0;
   font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  footer p {
+    font-size: 0.9rem;
+  }
 }
